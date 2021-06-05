@@ -1,0 +1,59 @@
+@media screen and (max-width: 1400px) {
+	.bg{
+		height:600px;width:100%; background-size:100% 600px;
+	}
+}
+@media screen and (max-width:50px){
+	.bg{
+		height:1000px;
+		width:100%;
+		background-size: 100% 1000px;
+	}
+	.h2{
+		font-size:20px;
+		padding-top: 10px;
+	}
+	.h1{
+		padding-top:none;
+		font-size: 22px;
+	}
+}
+/*#FE006E*/
+.up{
+	text-align: right;
+	padding-right: 100px;
+}
+.up a{
+	padding:0 10px;
+	color:white!important;
+}
+#nav-bar{
+	position:static;
+	top:10;
+	z-index: 10;
+}
+.navbar-brand img{
+	height:40px;
+	padding-left: 30px;
+
+}
+.navbar-nav li{
+	padding:0 10px;
+
+}
+.navbar-nav li a{
+	float:right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color:white!important;
+}
+.navbar-toggler{
+	border:none!important;
+	background-color:#F44483!important;
+}
+.nav-link{
+	color:white!important;
+	font-weight: 400;
+	font-size: 16px;
+}
